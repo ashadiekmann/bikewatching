@@ -1,0 +1,17 @@
+body {
+  font: 100%/1.5 system-ui, sans-serif;
+  display: flex;
+  flex-flow: column;
+  max-width: 80em;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 1em;
+}
+header { display: flex; gap: 1em; align-items: baseline; }
+header h1 { margin-block: 0.3em; }
+header label { margin-left: auto; }
+header input[type='range'] { width: 16em; }
+header time, header em { display: block; text-align: right; }
+header em { color: #888; font-style: italic; }
+.description { margin-block: 0 1em; color: #555; max-width: 60em; }
